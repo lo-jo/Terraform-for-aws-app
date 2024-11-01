@@ -1,10 +1,12 @@
-# Terraform for aws server app
+# AWS Web App
 
 Terraform script to provision :
 1. An EC2 instance with Nginx installed.
 2. An RDS database (PostgreSQL).
 3. A public endpoint to access the Nginx website.
  
+You will be able to access the NGINX default page by entering the public ip of the app in the browser.
+
 [<img src="arch_diagram.png" width="450"/>](Architecture)
 ## Requirements
 - Terraform installed 
