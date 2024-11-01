@@ -9,7 +9,8 @@ You will be able to access the NGINX default page by entering the public ip of t
 
 [<img src="arch_diagram.png" width="450"/>](Architecture)
 ## Requirements
-- Terraform installed 
+- Terraform installed
+- AWS account 
 - Export your AWS credentials locally:
 ```
 $ export AWS_ACCESS_KEY_ID=
@@ -24,7 +25,7 @@ db_pw       = ""
 db_name     = ""
 ```
 
-- in app/
+## Usage
 ```
 terraform init
 terraform apply
