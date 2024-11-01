@@ -10,3 +10,8 @@ variable "db_pw" {
   sensitive   = true
 }
 
+variable "db_name" {
+  description = "database name"
+  type        = string
+  sensitive   = true
+}

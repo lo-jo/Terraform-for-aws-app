@@ -21,6 +21,7 @@ $ export AWS_SECRET_ACCESS_KEY=
 ```
 db_username = ""
 db_pw       = ""
+db_name     = ""
 ```
 
 - in app/

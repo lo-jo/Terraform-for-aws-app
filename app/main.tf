@@ -20,8 +20,9 @@ provider "aws" {
 #  public_key = file("~/.ssh/pub_aws.pem")
 #}
 
-data "aws_caller_identity" "current" {}
 
+# Local var for current caller 
+data "aws_caller_identity" "current" {}
 
 
 #################### RESOURCES #####################
@@ -161,7 +162,7 @@ resource "aws_db_instance" "my_postgres_db" {
   allocated_storage   = 5
   username            = var.db_username
   password            = var.db_pw
-  db_name             = "DATABASE0"
+  db_name             = var.db_name
   skip_final_snapshot = true
 
   vpc_security_group_ids = [aws_security_group.rds_sg.id]
