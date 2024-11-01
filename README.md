@@ -1,4 +1,4 @@
-# AWS Web App
+# Terraform-for-aws-app
 
 Terraform script to provision :
 1. An EC2 instance with Nginx installed.
