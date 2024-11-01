@@ -33,5 +33,5 @@ terraform apply
 
 
 ### Resources
-https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build
+https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build \
 https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html
